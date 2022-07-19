@@ -154,6 +154,7 @@ body {
 }
 .sm-circle div {
   padding: 0 5px;
+  font-weight: bold;
 }
 
 .circle {
@@ -197,7 +198,7 @@ body {
 .circle i {
   position: absolute;
   width: 2px;
-  height: 55px;
+  height: 57px;
   background: #000;
   /* left: 70px; */
   /* top: 6pc;  */
