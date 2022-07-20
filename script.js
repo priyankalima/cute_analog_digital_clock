@@ -3,6 +3,7 @@ let mn = document.getElementById('mn');
 let sc = document.getElementById('sc');
 
 // setinterval
+
 setInterval(() => {
   let d = new Date();
 
@@ -22,7 +23,8 @@ setInterval(() => {
   let h = d.getHours();
   let m = d.getMinutes();
   let s = d.getSeconds();
-  let am = h >= 12 ? "PM" : "AM";
+  let am = h >= 12 ? 'PM' : 'AM';
+
   if (h > 12) {
     h = h - 12;
   }
@@ -34,5 +36,4 @@ setInterval(() => {
   minute.innerHTML = m;
   second.innerHTML = s;
   ampm.innerHTML = am;
-})
-
+});
