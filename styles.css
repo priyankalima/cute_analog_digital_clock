@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: #876445;
+  background-color: #ca955c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@ body {
 .head .ear-circle {
   width: 80px;
   height: 80px;
-  background: #ca955c;
+  background: #876445;
   position: absolute;
   border-radius: 100%;
   /* left: 2pc; */
@@ -50,7 +50,7 @@ body {
 .head .ear-circle2 {
   width: 80px;
   height: 80px;
-  background: #ca955c;
+  background: #876445;
   position: absolute;
   border-radius: 100%;
   left: 10.6pc;
@@ -59,7 +59,7 @@ body {
   margin: auto;
   width: 200px;
   height: 200px;
-  background-color: #ca955c;
+  background-color: #876445;
   border-radius: 100%;
 }
 .md-circle {
@@ -113,7 +113,7 @@ body {
   height: 12px;
   background: #eddfb3;
   position: relative;
-  top: 5.5pc;
+  top: 5.7pc;
   left: 3.7pc;
   border-radius: 100%;
   z-index: 1;
@@ -122,7 +122,7 @@ body {
   position: absolute;
   inset: 6px;
   text-align: center;
-  color: #876445;
+  color: #ca955c;
   transform: rotate(calc(30deg * var(--i)));
   font-size: 11px;
 }
@@ -134,7 +134,7 @@ body {
   width: 250px;
   height: 250px;
   margin: auto;
-  background: #ca955c;
+  background: #876445;
   border-radius: 100%;
   margin-top: -60px;
   display: flex;
