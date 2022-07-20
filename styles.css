@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: #876445;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@ body {
 .head .ear-circle {
   width: 80px;
   height: 80px;
-  background: #000;
+  background: #ca955c;
   position: absolute;
   border-radius: 100%;
   /* left: 2pc; */
@@ -50,7 +50,7 @@ body {
 .head .ear-circle2 {
   width: 80px;
   height: 80px;
-  background: #000;
+  background: #ca955c;
   position: absolute;
   border-radius: 100%;
   left: 10.6pc;
@@ -59,68 +59,70 @@ body {
   margin: auto;
   width: 200px;
   height: 200px;
-  background-color: #000;
+  background-color: #ca955c;
   border-radius: 100%;
 }
 .md-circle {
   width: 150px;
   height: 150px;
-  background-color: #fff;
+  background-color: #eddfb3;
   position: absolute;
   border-radius: 100%;
   top: 1.5pc;
   left: 3.2pc;
 }
 .eye-circle {
-  width: 5px;
-  height: 5px;
-  background-color: #000;
+  width: 10px;
+  height: 10px;
+  background-color: #876445;
   border-radius: 50%;
   position: absolute;
   top: 2pc;
   left: 2pc;
 }
 .eye-circle2 {
-  width: 5px;
-  height: 5px;
-  background-color: #000;
+  width: 10px;
+  height: 10px;
+  background-color: #876445;
   border-radius: 50%;
   position: absolute;
   top: 2pc;
-  left: 6pc;
+  left: 6.5pc;
 }
 .nose-circle {
   width: 20px;
   height: 20px;
-  background: #000;
+  background: #876445;
   position: absolute;
-  top: 4.5pc;
+  top: 4pc;
   left: 4pc;
   border-radius: 100%;
 }
 .mouth-circle {
   width: 35px;
   height: 20px;
-  background: #000;
-  position: absolute;
+  background: #876445;
+  position: relative;
   top: 7pc;
   left: 3.7pc;
   border-radius: 100%;
+  z-index: 1;
 }
 .mouth {
   width: 35px;
   height: 12px;
-  background: #fff;
-  position: absolute;
-  top: 7pc;
+  background: #eddfb3;
+  position: relative;
+  top: 5.5pc;
   left: 3.7pc;
   border-radius: 100%;
+  z-index: 1;
 }
 .clock span {
   position: absolute;
   inset: 6px;
   text-align: center;
-  color: #fff;
+  color: #876445;
   transform: rotate(calc(30deg * var(--i)));
   font-size: 11px;
 }
@@ -132,7 +134,7 @@ body {
   width: 250px;
   height: 250px;
   margin: auto;
-  background: #000;
+  background: #ca955c;
   border-radius: 100%;
   margin-top: -60px;
   display: flex;
@@ -140,7 +142,7 @@ body {
 .lg-circle .sm-circle {
   width: 150px;
   height: 100px;
-  background-color: #fff;
+  background-color: #eddfb3;
   position: relative;
   margin-top: 5pc;
   left: 3pc;
@@ -155,6 +157,7 @@ body {
 .sm-circle div {
   padding: 0 5px;
   font-weight: bold;
+  color: #876445;
 }
 
 .circle {
@@ -199,7 +202,7 @@ body {
   position: absolute;
   width: 2px;
   height: 57px;
-  background: #000;
+  background: #876445;
   /* left: 70px; */
   /* top: 6pc;  */
   /* opacity: 0.75;
